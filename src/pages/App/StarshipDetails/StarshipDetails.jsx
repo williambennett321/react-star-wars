@@ -23,7 +23,7 @@ const StarshipDetail = (props) => {
         </h3>
           <h3 class="list-group-item"> <strong>Model: </strong>{starshipDetails.model}</h3>
           <div id="home-btn">
-          <button type="button" class="btn btn-outline-dark">
+          <button type="submit" action= "/" class="btn btn-outline-dark">
           <Link to= {`/`} >Return Home</Link>
           </button>
           </div>

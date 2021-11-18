@@ -12,7 +12,7 @@ const StarshipList = (props) => {
 
 return (
 <>
-  <h2>Starship List: </h2>
+  <h2 id="list">Starship List: </h2>
  {starshipList.length ? 
   <div class= "starship-container">
 
@@ -20,6 +20,7 @@ return (
     
     <div class="card text-white bg-dark mb-3" id="starship">
       <Link
+      
       to= {{pathname: `/starship/${idx}` }}
       state={{ starship }}
       key={idx}
